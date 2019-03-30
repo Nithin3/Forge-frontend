@@ -1,11 +1,11 @@
-var sha256 = require('js-sha256');
-var express = require('express');
-var bodyParser = require('body-parser')
-var app = express();
+const sha256 = require('js-sha256');
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
 app.set('view engine', 'ejs');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-var request = require('request');
+const request = require('request');
 
 app.get("/",function(req,res){
     res.send("This is Home Page");
@@ -18,8 +18,8 @@ app.get("/register",function(req, res) {
 
 app.post("/register",function(req,res){
 
-	var hashedId = sha256(req.body.email);
-	 var data = {
+	const hashedId = sha256(req.body.email);
+	 const data = {
                 "$class": "org.forgesample.mynetwork.Owner",
                 "ownerId": hashedId,
                 "firstName": req.body.firstname,
@@ -49,5 +49,5 @@ res.redirect("/");
 
 });
 
-var port = 8050;
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+const port = 8050;
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
