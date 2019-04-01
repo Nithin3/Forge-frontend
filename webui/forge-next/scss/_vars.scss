@@ -1,1 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
 $green: green;
+@mixin link-padding($padding) {
+  padding-left: $padding;
+  padding-right: $padding;
+}
+$forge-font: 'Poiret One', cursive;
+

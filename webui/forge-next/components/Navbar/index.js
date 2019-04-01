@@ -11,17 +11,21 @@ class Navbar extends Component{
     render() {
         return (
             <nav>
-                <div>
-                    <Link href="/">
-                        <a title="Home">Home</a>
-                    </Link>
-                    <Link href="/login">
-                        <a title="Login">Login</a>
-                    </Link>
-                    <Link href="/register">
-                        <a title="Register">Register</a>
-                    </Link>
-                    <mark className="badge">Hello!</mark>
+                <div id="nav-cont">
+                    <div id="nav-links">
+                        <Link href="/">
+                            <a title="Home">Home</a>
+                        </Link>
+                        <Link href="/login">
+                            <a title="Login">Login</a>
+                        </Link>
+                        <Link href="/register">
+                            <a title="Register">Register</a>
+                        </Link>
+                        <Link href="/order">
+                            <a title="Submit an order">Submit an order</a>
+                        </Link>
+                    </div>
                 </div>
             </nav>
         )

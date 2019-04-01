@@ -2039,7 +2039,7 @@ function (_Document) {
           lineNumber: 8
         },
         __self: this
-      }, "Forge Awesome Kit"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+      }, "FORGE"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "stylesheet",
         href: "/_next/static/style.css",
         __source: {

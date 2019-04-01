@@ -5,7 +5,7 @@ export default class ForgeDocument extends Document {
         return (
             <html>
                 <Head>
-                    <title>Forge Awesome Kit</title>
+                    <title>FORGE</title>
                     <link rel="stylesheet" href="/_next/static/style.css" />
                 </Head>
                 <body>

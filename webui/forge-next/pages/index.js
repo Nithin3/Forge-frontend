@@ -1,11 +1,12 @@
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
+import Orderform from '../components/Orderform';
 import '../scss/style.scss';
 
 const Index = () => (
     <section>
         <Navbar/>
-        <p>Hello Next.js</p>
+        <h1>Forge Firmament Home Page</h1>
     </section>
 );
 
