@@ -30,16 +30,16 @@ export default class Registerform extends Component{
         return (
             <Form>
                 <FormGroup>
-                    <Input type="text" name="first-name" id="fname" placeholder="First Name"/>
+                    <Input type="text" name="firstname" id="fname" placeholder="First Name"/>
                 </FormGroup>
                 <FormGroup>
-                    <Input type="text" name="last-name" id="lname" placeholder="Last Name"/>
+                    <Input type="text" name="lastname" id="lname" placeholder="Last Name"/>
                 </FormGroup>
                 <FormGroup>
-                    <Input type="email" ref={this.emailRef} id="emailaddr" required placeholder="Email Address"/>
+                    <Input type="email" ref={this.emailRef} name="emailaddr" required placeholder="Email Address"/>
                 </FormGroup>
                 <FormGroup>
-                    <Input type="email" ref={ this.confemailRef } id="confemailaddr" required placeholder="Confirm Email Address"/>
+                    <Input type="email" ref={ this.confemailRef } name="confemailaddr" required placeholder="Confirm Email Address"/>
                 </FormGroup>
                 <FormGroup>
                     <Input type="password" id="passwd" placeholder="Password"/>
