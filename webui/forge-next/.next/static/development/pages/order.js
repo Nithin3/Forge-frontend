@@ -153,19 +153,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _Orderform_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Orderform.scss */ "./components/Orderform/Orderform.scss");
-/* harmony import */ var _Orderform_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_Orderform_scss__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _Orderform_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Orderform.scss */ "./components/Orderform/Orderform.scss");
+/* harmony import */ var _Orderform_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_Orderform_scss__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
 
 
 var _jsxFileName = "/home/xteci/Development/Forge-frontend/webui/forge-next/components/Orderform/index.js";
-
 
 
 
@@ -192,13 +189,13 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Form"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 15
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["FormGroup"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 16
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Input"], {
@@ -208,13 +205,13 @@ function (_Component) {
         placeholder: "Email",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 17
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["FormGroup"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 19
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Input"], {
@@ -224,13 +221,13 @@ function (_Component) {
         placeholder: "OrderID",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 20
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["FormGroup"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 22
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Input"], {
@@ -240,13 +237,13 @@ function (_Component) {
         placeholder: "Order Details",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 23
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["InputGroup"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 25
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Input"], {
@@ -256,7 +253,7 @@ function (_Component) {
         placeholder: "Qty of units",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 26
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Input"], {
@@ -265,34 +262,34 @@ function (_Component) {
         id: "qtymetric",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 27
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
         value: "kg",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 28
         },
         __self: this
       }, "Kilograms"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
         value: "g",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 29
         },
         __self: this
       }, "Grams"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
         value: "units",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 30
         },
         __self: this
       }, "Units"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Button"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 33
         },
         __self: this
       }, "Submit"));
@@ -24144,7 +24141,7 @@ var Order = function Order() {
 
 /***/ }),
 
-/***/ 8:
+/***/ 1:
 /*!************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Forder&absolutePagePath=%2Fhome%2Fxteci%2FDevelopment%2FForge-frontend%2Fwebui%2Fforge-next%2Fpages%2Forder.js ***!
   \************************************************************************************************************************************************************/
@@ -24167,5 +24164,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js","styles"]]]));;
+},[[1,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=order.js.map

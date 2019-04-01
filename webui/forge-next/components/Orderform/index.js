@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input, FormText ,  InputGroup, InputGroupAddon, InputGroupText } from 'reactstrap';
-import Link from 'next/link';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Orderform.scss';
 

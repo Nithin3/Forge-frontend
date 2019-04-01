@@ -17,18 +17,6 @@
   ],
   "undefined": [
     {
-      "id": 2,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 9,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
       "id": 3,
       "name": null,
       "file": "static/chunks/styles.js",
@@ -51,6 +39,12 @@
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
     }
   ],
   "bootstrap/dist/css/bootstrap.min.css": [
@@ -61,18 +55,18 @@
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "./Orderform.scss": [
+  "./Registerform.scss": [
     {
-      "id": "./components/Orderform/Orderform.scss",
-      "name": "./components/Orderform/Orderform.scss",
+      "id": "./components/Registerform/Registerform.scss",
+      "name": "./components/Registerform/Registerform.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "../scss/style.scss": [
+  "./Orderform.scss": [
     {
-      "id": "./scss/style.scss",
-      "name": "./scss/style.scss",
+      "id": "./components/Orderform/Orderform.scss",
+      "name": "./components/Orderform/Orderform.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
