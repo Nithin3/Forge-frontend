@@ -28,7 +28,7 @@ export default class Registerform extends Component{
 
     render(){
         return (
-            <Form>
+            <Form action = "/register" method="POST">
                 <FormGroup>
                     <Input type="text" name="firstname" id="fname" placeholder="First Name"/>
                 </FormGroup>
