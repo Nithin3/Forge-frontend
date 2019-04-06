@@ -1,10 +1,33 @@
 <% include ./partials/header %>
- 
-<ol class="progtrckr" data-progtrckr-steps="5">
-    
-    <li class="progtrckr-done">Order Processing</li><!--
- --><li class="progtrckr-done">Pre-Production</li><!--
- --><li class="progtrckr-done">In Production</li><!--
- --><li class="progtrckr-todo">Shipped</li><!--
- --><li class="progtrckr-todo">Delivered</li>
-</ol>
+
+<div class="container">
+
+
+<table class="table">
+    <thead>
+      <tr class="bg-dark" style="color: white; background-color: black">
+        <th scope="col">#</th>
+        <th scope="col">Ordername</th>
+        <th scope="col">OrderId</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+  
+    <tbody>
+
+        <%var i = 1%>
+        <% orders.forEach(function(order){ %>
+          <tr>
+              <th scope="row"><%=i%></th>
+              <td><%= order.NSN%></td>
+              <td><%= Math.floor(Math.random() * 12323) %></td>
+              <td><%= order.description %></td>
+            </tr>
+        <% i++; %>    
+        <% }); %>
+      </tbody>
+    </div>
+  
+  </table> 
+
+  <% include ./partials/footer %>

@@ -1,0 +1,25 @@
+@import '_nav_vars.scss';
+
+nav {
+  #nav-cont {
+    background-color: #005cbf;
+    height: 50px;
+    #nav-links {
+      float: right;
+      a {
+        display: inline-block;
+        color: white;
+        padding: 10px;
+        font-family: $forge-font;
+        font-size: 20px;
+        @include link-padding(10px);
+      }
+    }
+  }
+}
+
+h1 {
+  padding-top: 2.5%;
+  font-family: $forge-font;
+  text-align: center;
+}

@@ -2,9 +2,15 @@
 <html>
     <head>
         <title>Forge</title>
-        <link rel="stylesheet" href="style.css">
         <style>
+
+            font{
+                font-family: 'Roboto Slab', serif;
+            }
                         
+            homeimage{
+                background-image: url("https://static01.nyt.com/images/2018/08/29/world/29china-navy-1-print/merlin_137389209_409545e1-15f4-46f4-bb93-c3375859f5d4-articleLarge.jpg?quality=75&auto=webp&disable=upscale");
+            }
             ol.progtrckr {
                 margin: 0;
                 padding: 0;
@@ -63,15 +69,47 @@
                 bottom: -1.2em;
             }
 
+            
 
             
         </style>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.0/dist/semantic.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
         
     </head>
-    <body>
-        
+<body>
+        <nav class="navbar  navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
+                <img src="https://img.icons8.com/color/48/000000/us-navy.png">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a style="font-family: 'Roboto Slab', serif;" class="nav-link font" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                            <a style="font-family: 'Roboto Slab', serif;" class="nav-link " href="/register">Register<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                            <a style="font-family: 'Roboto Slab', serif;" class="nav-link" href="/orders/new">Submit an Order<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item active">
+                            <a style="font-family: 'Roboto Slab', serif;" class="nav-link" href="/orders">My Orders<span class="sr-only">(current)</span></a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+ 
         
         
         
